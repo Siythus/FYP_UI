@@ -116,12 +116,12 @@ class Ui_MainWindow(object):
         self.AddProfileButton.setCursor(QCursor(Qt.PointingHandCursor))
         self.AddProfileButton.setAutoFillBackground(False)
         self.AddProfileButton.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgba(255, 255, 255, 150);\n"
-"	border-radius: 50%;\n"
+"       background-color: rgba(255, 255, 255, 150);\n"
+"       border-radius: 50%;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgba(236, 236, 236, 30);\n"
+"       background-color: rgba(236, 236, 236, 30);\n"
 "}")
         icon1 = QIcon()
         icon1.addFile(u"./Images/1x/add.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -271,12 +271,12 @@ class Ui_MainWindow(object):
         self.Profile1.setGeometry(QRect(370, 390, 111, 121))
         self.Profile1.setCursor(QCursor(Qt.OpenHandCursor))
         self.Profile1.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgba(236, 236, 236, 30);\n"
+"       background-color: rgba(236, 236, 236, 30);\n"
 "}")
         icon2 = QIcon()
         icon2.addFile(u"./Images/1x/Profile1.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -311,12 +311,12 @@ class Ui_MainWindow(object):
         self.logoutBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.logoutBtn.setLayoutDirection(Qt.LeftToRight)
         self.logoutBtn.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         self.logoutBtn.setIcon(icon2)
         self.logoutBtn.setIconSize(QSize(50, 55))
@@ -327,12 +327,12 @@ class Ui_MainWindow(object):
         self.cameraSettingsBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.cameraSettingsBtn.setLayoutDirection(Qt.LeftToRight)
         self.cameraSettingsBtn.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         icon3 = QIcon()
         icon3.addFile(u"./Images/Icons/camera-setting-icon.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -344,12 +344,12 @@ class Ui_MainWindow(object):
         self.controlsSettingsBtn.setFont(font4)
         self.controlsSettingsBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.controlsSettingsBtn.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         icon4 = QIcon()
         icon4.addFile(u"./Images/Icons/controllerSettingsIcon.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -374,12 +374,12 @@ class Ui_MainWindow(object):
         self.profileSettingsBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.profileSettingsBtn.setLayoutDirection(Qt.LeftToRight)
         self.profileSettingsBtn.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         icon6 = QIcon()
         icon6.addFile(u"./Images/Icons/account-settings-11-128.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -431,13 +431,13 @@ class Ui_MainWindow(object):
         self.trackmaniaBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.trackmaniaBtn.setLayoutDirection(Qt.LeftToRight)
         self.trackmaniaBtn.setStyleSheet(u"QPushButton{\n"
-"	background-color: none;\n"
-"	border: none;\n"
+"       background-color: none;\n"
+"       border: none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	\n"
-"	background-color: rgba(255, 255, 255, 30);\n"
+"       \n"
+"       background-color: rgba(255, 255, 255, 30);\n"
 "}")
         icon7 = QIcon()
         icon7.addFile(u"./Images/Icons/trachmaniaIcon.jpg", QSize(), QIcon.Normal, QIcon.Off)
@@ -489,25 +489,25 @@ class Ui_MainWindow(object):
         self.removeProfileBtn_3.setCursor(QCursor(Qt.PointingHandCursor))
         self.removeProfileBtn_3.setStyleSheet(u"QPushButton {\n"
 "    border-radius: 25px;\n"
-"	\n"
-"	color: rgb(255, 255, 255);\n"
-"	background-color: rgb(212, 19, 19);\n"
+"       \n"
+"       color: rgb(255, 255, 255);\n"
+"       background-color: rgb(212, 19, 19);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(255, 103, 65);\n"
+"       background-color: rgb(255, 103, 65);\n"
 "}")
         self.editProfileBtn_2 = QPushButton(self.page_4)
         self.editProfileBtn_2.setObjectName(u"editProfileBtn_2")
         self.editProfileBtn_2.setGeometry(QRect(290, 220, 21, 21))
         self.editProfileBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
         self.editProfileBtn_2.setStyleSheet(u"QPushButton{\n"
-"	background-color: rgba(255, 255, 255, 0);\n"
+"       background-color: rgba(255, 255, 255, 0);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	\n"
-"	background-color: rgb(160, 173, 191);\n"
+"       \n"
+"       background-color: rgb(160, 173, 191);\n"
 "}")
         icon8 = QIcon()
         icon8.addFile(u"./Images/Icons/editicon.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -534,15 +534,15 @@ class Ui_MainWindow(object):
         self.removeProfileBtn_4.setCursor(QCursor(Qt.PointingHandCursor))
         self.removeProfileBtn_4.setStyleSheet(u"QPushButton {\n"
 "    border-radius: 25px;\n"
-"	\n"
-"	color: rgb(255, 255, 255);\n"
-"	\n"
-"	background-color: rgb(122, 147, 183);\n"
+"       \n"
+"       color: rgb(255, 255, 255);\n"
+"       \n"
+"       background-color: rgb(122, 147, 183);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	\n"
-"	background-color: rgb(145, 176, 218);\n"
+"       \n"
+"       background-color: rgb(145, 176, 218);\n"
 "}")
         self.label_25 = QLabel(self.page_5)
         self.label_25.setObjectName(u"label_25")
@@ -720,12 +720,12 @@ class Ui_MainWindow(object):
         self.logoutBtn_2.setCursor(QCursor(Qt.PointingHandCursor))
         self.logoutBtn_2.setLayoutDirection(Qt.LeftToRight)
         self.logoutBtn_2.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         icon9 = QIcon()
         icon9.addFile(u"./Images/Icons/Logouticon.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -745,15 +745,15 @@ class Ui_MainWindow(object):
         self.launchGameBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.launchGameBtn.setStyleSheet(u"QPushButton {\n"
 "    border-radius: 25px;\n"
-"	\n"
-"	color: rgb(255, 255, 255);\n"
-"	\n"
-"	background-color: rgb(122, 147, 183);\n"
+"       \n"
+"       color: rgb(255, 255, 255);\n"
+"       \n"
+"       background-color: rgb(122, 147, 183);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	\n"
-"	background-color: rgb(145, 176, 218);\n"
+"       \n"
+"       background-color: rgb(145, 176, 218);\n"
 "}")
         icon10 = QIcon()
         icon10.addFile(u"./Images/Icons/playButton.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -781,12 +781,12 @@ class Ui_MainWindow(object):
         self.controlsSettingsBtn_3.setFont(font14)
         self.controlsSettingsBtn_3.setCursor(QCursor(Qt.PointingHandCursor))
         self.controlsSettingsBtn_3.setStyleSheet(u"QPushButton{\n"
-"	color: rgb(255, 255, 255);\n"
-"	border:none;\n"
+"       color: rgb(255, 255, 255);\n"
+"       border:none;\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(153, 178, 208);\n"
+"       background-color: rgb(153, 178, 208);\n"
 "}")
         self.controlsSettingsBtn_3.setIconSize(QSize(50, 50))
         self.tutorialBtn = QPushButton(self.page_8)
@@ -796,15 +796,15 @@ class Ui_MainWindow(object):
         self.tutorialBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.tutorialBtn.setStyleSheet(u"QPushButton {\n"
 "    border-radius: 25px;\n"
-"	\n"
-"	color: rgb(255, 255, 255);\n"
-"	\n"
-"	background-color: rgb(122, 147, 183);\n"
+"       \n"
+"       color: rgb(255, 255, 255);\n"
+"       \n"
+"       background-color: rgb(122, 147, 183);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"	\n"
-"	background-color: rgb(145, 176, 218);\n"
+"       \n"
+"       background-color: rgb(145, 176, 218);\n"
 "}")
         icon11 = QIcon()
         icon11.addFile(u"./Images/Icons/gametutorial.png", QSize(), QIcon.Normal, QIcon.Off)
