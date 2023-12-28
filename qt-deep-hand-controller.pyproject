@@ -1,0 +1,9 @@
+{
+    "files": [
+        "main.py",
+        "input.py",
+        "gestures.py",
+        "app.ui",
+        "app.py"
+    ]
+}
